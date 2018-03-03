@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancy Grapefruit Store</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="formChecker.js"></script>
+	</head>
+	<body>
+		<form action="customerBackend.php" method="post" onsubmit="return check()">
+			<h1>Welcome to the Fancy Grapefruit Store!</h1><br>
+			<p>
+			Username(email): <input type="text" name="username" id="username"><br>
+			Password: <input type="text" name="password" id="password"><br>
+			Large Grapefruits($1,000): <input type="number" name="lfruit" id="lfruit"><br>
+			Small Grapefruits($0.01): <input type="number" name="sfruit" id="sfruit"><br>
+			Normal-Sized Grapefruits($1.50): <input type="number" name="fruit" id="fruit"><br>
+			Select a shipping option:<br>
+			<input type="radio" name="ship" id="ship7" value="7"><label>Free 7 day</label><br>
+			<input type="radio" name="ship" id="ship1" value="1"><label>$50.00 over night</label><br>
+			<input type="radio" name="ship" id="ship3" value="3"><label>$5.00 three day</label><br>
+			<input type="reset" value="Reset">
+			<input type="submit" value="Submit">
+			</p>
+		</form>
+	</body>
+</html>

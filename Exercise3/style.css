@@ -1,0 +1,37 @@
+body
+{
+	background-image: url(background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1
+{
+	background-color: white;
+}
+
+p
+{
+	background-color: white;
+	color: blue;
+	font-family: arial;
+	font-size: 18pt;
+}
+
+table, th, td, tr
+{
+	border: 1px solid black;
+}
+
+th
+{
+	color: black;
+	background-color: #98FB98;
+}
+
+td
+{
+	color:black;
+	background-color: #CCCCFF;
+}
